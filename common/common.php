@@ -7,6 +7,7 @@
  */
 echo "1";
 require_once "DB/dbConn.php";
+echo "1-1";
 require_once "DB/db_link.php";
 echo "2";
 echo $HTTP_SERVER_VARS;
