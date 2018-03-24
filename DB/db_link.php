@@ -15,12 +15,6 @@
 
     $db_set = new DBConn($host,$user,$pass,$db,$port,$db_charset);
     $db_set->db_conn();
-    echo "2-1";
-//    $query = "select utc_timestamp()";
-    $query = "
-        select * from sh_user_info;
-     ";
-    echo "2-2";
-    echo json_encode($db_set->select_one($query));
-    echo "2-3";
+
+    $query = "select * from sh_user_info";
 ?>

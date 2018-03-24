@@ -8,6 +8,4 @@
 ?>
 
 
-<title>
-    SH Library
-</title>
+<title> <?=$user_info[0]['user_nm']?>'s Library </title>
