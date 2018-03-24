@@ -6,10 +6,10 @@
  * Time: PM 9:31
  */
 
-    $user = 'root';
-    $pass = null ;
-    $db = 'shkim';
-    $host = '127.0.0.1';
+    $user = 'kimsh0212';
+    $pass = 'kimsh01!' ;
+    $db = 'kimsh0212';
+    $host = 'localhost';
     $port = 3306;
     $db_charset = "utf8";
 
