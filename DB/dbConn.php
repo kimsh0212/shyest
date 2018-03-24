@@ -39,18 +39,13 @@
         }
 
         public function select_one($query){
-            echo "sel_01";
             $result = $this->db_link->query($query) or die ($this->_connect->error);
             $in = 0;
-            echo "sel_02";
             while($row = $result->fetch_assoc()){
                 $return_data[$in] = $row;
                 $in++;
             }
-            echo "sel_03";
             $this->db_link->close();
-            echo "sel_04";
-
             return $result = $return_data;
         }
     }
